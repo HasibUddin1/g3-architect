@@ -65,3 +65,49 @@ body {
     margin-top: 50px;
     padding-bottom: 50px;
 }
+/* Quick List Section */
+.quick-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    padding: 0px 20px;
+    margin-top: 85px;
+}
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick-list-main{
+    margin-bottom: 24px;
+}
+#quick-list{
+    font-size: 45px;
+    font-weight: 500;
+    color: #424242;
+}
+#of-our{
+    font-size: 45px;
+    font-weight: 700;
+}
+#features{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+#quick-list-para{
+    font-weight: 400;
+    columns: #727272;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+#quick-list-btn{
+    padding: 20px 24px;
+    background-color: #FF900E;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
