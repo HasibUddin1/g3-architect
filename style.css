@@ -111,3 +111,29 @@ body {
     font-weight: 600;
     border-radius: 8px;
 }
+/* Features Section */
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 54px;
+    margin-top: 130px;
+}
+#features-enjoy{
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+.feature-contents{
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.feature-image img{
+    width: 80%;
+}
+#features-enjoy-head{
+    margin-left: 21px;
+}
